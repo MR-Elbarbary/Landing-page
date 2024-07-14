@@ -102,6 +102,7 @@ a ,
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 100px;
 }
 
 .card-container{
@@ -126,4 +127,28 @@ img{
     border-radius: 14px;
     border: 10px;
     border-color: #3882f6;
+}
+
+.container3{
+    background-color: #cacbcc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote-container{
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    margin: 150px;
+
+}
+.quote{
+    font-size: 36px;
+    font-weight: lighter;
+}
+.name{
+    margin-left: auto;
+    font-size: 24px;
+    font-weight: bold;
 }
