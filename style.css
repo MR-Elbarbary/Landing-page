@@ -121,11 +121,12 @@ a ,
 
 }
 
-img{
+.image{
     height: 200px;
+    margin-bottom: 8px;
     width: 200px;
     border-radius: 14px;
-    border: 10px;
+    border: 5px solid;
     border-color: #3882f6;
 }
 
@@ -151,4 +152,38 @@ img{
     margin-left: auto;
     font-size: 24px;
     font-weight: bold;
+}
+
+.box{
+    display: flex;
+    padding: 50px;
+    width: 1000px;
+    margin: 100px;
+    justify-content:space-around;
+    align-items: center;
+    background-color: #3882f6;
+    border-radius: 8px;
+}
+
+.container4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action{
+    font-size: 24px;
+    color:#f9faf8;
+}
+.action-text{
+    color: #cacbcc;
+}
+
+.box button{
+    background-color: #3882f6;
+    border-radius: 10px;
+    border: 2px #f9faf8 solid;
+    color: #f9faf8;
+    font-size: 18px;
+    padding: 7px 30px;
 }
