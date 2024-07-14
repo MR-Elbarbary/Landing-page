@@ -90,3 +90,40 @@ a ,
     border-style: none;
     
 }
+
+.information{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    margin: 40px;
+}
+
+.container2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 200px;
+    font-size: 20px;
+
+}
+
+img{
+    height: 200px;
+    width: 200px;
+    border-radius: 14px;
+    border: 10px;
+    border-color: #3882f6;
+}
